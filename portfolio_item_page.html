@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <!--viewport is to ensure scaling to mobile devices and desktop automatically-->
+        <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+        <title>Hubert Portfolio website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css"> 
+        <script src="https://kit.fontawesome.com/9ab3f7f630.js" crossorigin="anonymous"></script>
+        <integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g==" crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=PT+Serif&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css"> <!-- Linking css file-->
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/coding_icon.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class ="nav">
+                <ul class = "nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                The title <strong>of my project</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A Short subtitle</p>
+            <img src="img/drone1.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p></p>
+            <img src="" alt="">
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:hubertylooi@gmail.com" class="footer__link">hubertylooi@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/hubert-ooi/"><i class="fab fa-linkedin"></i></a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/hubertooi">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+
+</html>
